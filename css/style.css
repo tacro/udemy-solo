@@ -185,6 +185,10 @@ section{
   padding: 120px 0;
 }
 
+.content-box-md{
+  padding: 100px 0;
+}
+
 /* =====================================
   Vertical headings
 ======================================*/
@@ -229,3 +233,35 @@ section{
 /* =====================================
   About 02
 ======================================*/
+#about-02{
+  background-color: #F4F4F4;
+}
+
+.about-item{
+  background-color: #fff;
+  padding: 80px 30px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.about-item i{
+  font-size: 42px;
+  margin: 0 0 10px 0;
+}
+
+.about-item h3{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-item hr{
+  width: 45px;
+  height: 3px;
+  background-color: #f4c613;
+  margin: 0 auto;
+  border: none;
+}
+
+.about-item p{
+  margin-top: 20px;
+}
