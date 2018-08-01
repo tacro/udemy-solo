@@ -598,16 +598,27 @@
             </div>
 
           </div>
+
+          <div class="col-md-12">
+            <!-- Portfolio Items filters -->
+            <div id="isotope-filters">
+              <button data-filter="*" class="btn active"><span>All</span></button>
+              <button data-filter=".logo" class="btn"><span>Logo</span></button>
+              <button data-filter=".web" class="btn"><span>Web</span></button>
+              <button data-filter=".mobile" class="btn"><span>Mobile</span></button>
+              <button data-filter=".desktop" class="btn"><span>Desktop</span></button>
+            </div>
+          </div>
         </div>
       </div>
 
       <!-- Portfolio Items Wrapper -->
       <section id="portfolio-wrapper">
-        <div class="container">
-          <div class="row">
-            <div id="*-container">
+        <div class="container-fluid">
+          <div class="row no-gutters" id="isotope-container">
+            <!-- <div id="isotope-container"> -->
 
-              <div class="col-md-3">
+              <div class="col-md-3 desktop">
                 <!-- Portfolio Item 01 -->
                 <div class="portfolio-item">
 
@@ -631,7 +642,7 @@
                 </div>
               </div>
 
-              <div class="col-md-3">
+              <div class="col-md-3 web">
                 <!-- Portfolio Item 02 -->
                 <div class="portfolio-item">
 
@@ -655,7 +666,7 @@
                 </div>
               </div>
 
-              <div class="col-md-3">
+              <div class="col-md-3 web mobile logo">
                 <!-- Portfolio Item 03 -->
                 <div class="portfolio-item">
 
@@ -679,7 +690,7 @@
                 </div>
               </div>
 
-              <div class="col-md-3">
+              <div class="col-md-3 logo web">
                 <!-- Portfolio Item 04 -->
                 <div class="portfolio-item">
 
@@ -703,7 +714,7 @@
                 </div>
               </div>
 
-              <div class="col-md-3">
+              <div class="col-md-3 web">
                 <!-- Portfolio Item 05 -->
                 <div class="portfolio-item">
 
@@ -727,7 +738,7 @@
                 </div>
               </div>
 
-              <div class="col-md-3">
+              <div class="col-md-3 logo desktop">
                 <!-- Portfolio Item 06 -->
                 <div class="portfolio-item">
 
@@ -751,7 +762,7 @@
                 </div>
               </div>
 
-              <div class="col-md-3">
+              <div class="col-md-3 web mobile">
                 <!-- Portfolio Item 07 -->
                 <div class="portfolio-item">
 
@@ -775,7 +786,7 @@
                 </div>
               </div>
 
-              <div class="col-md-3">
+              <div class="col-md-3 web mobile">
                 <!-- Portfolio Item 08 -->
                 <div class="portfolio-item">
 
@@ -799,7 +810,7 @@
                 </div>
               </div>
 
-            </div>
+            <!-- </div> -->
           </div>
         </div>
       </section>
@@ -825,6 +836,9 @@
 
   <!-- responsive tabs -->
   <script src="js/responsive-tabs/jquery.responsiveTabs.min.js"></script>
+
+  <!-- isotope -->
+  <script src="js/isotope/isotope.pkgd.min.js"></script>
 
   <!-- custom js -->
   <script src="js/script.js"></script>
