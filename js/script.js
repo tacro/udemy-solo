@@ -7,6 +7,37 @@ $(window).on('load', function() {
 });
 
 /* =====================================
+  Navbar
+======================================*/
+
+// show & hide white navbar
+$(function() {
+
+  //on page load
+  showHideNav();
+
+  //on scroll
+  $(window).scroll(function() {
+    showHideNav()
+  });
+
+  //show and hide white navbar
+  function showHideNav() {
+    if ($(window).scrollTop() > 50) {
+      //show
+      $("nav").addClass("white-nav-top");
+
+      $(".navbar-brand img").attr("src", "img/logo/logo-dark.png");
+    } else {
+      //hide
+      $("nav").removeClass("white-nav-top");
+
+      $(".navbar-brand img").attr("src", "img/logo/logo.png");
+    }
+  }
+});
+
+/* =====================================
   Team
 ======================================*/
 $(function() {
