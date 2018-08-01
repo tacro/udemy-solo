@@ -71,3 +71,16 @@ $(window).on('load', function() {
     $(this).addClass('active');
   });
 });
+
+/* =====================================
+  Magnifier
+======================================*/
+$(function() {
+  $('#portfolio-wrapper').magnificPopup({
+    delegate: 'a', //child items selecter
+    type: 'image',
+    gallery: {
+      enabled: true
+    },
+  });
+});
