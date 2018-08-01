@@ -67,7 +67,7 @@ $(window).on('load', function() {
     });
 
     //active button
-    $grid.find('.active').removeClass('.active');
+    $('#isotope-filters').find('.active').removeClass('active');
     $(this).addClass('active');
   });
 });

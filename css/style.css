@@ -632,3 +632,30 @@ ul.social-list li:nth-child(3) a:hover{
 .row.no-gutters [class*=col-]{
   padding: 0;
 }
+
+/* filters css */
+#isotope-filters {
+  margin-bottom: 10px;
+  padding: 20px 25px 20px 0;
+}
+
+#isotope-filters button{
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding-right: 30px;
+}
+
+#isotope-filters button span{
+  display: block;
+  padding-bottom: 5px;
+  transition: border-color .4s ease-in-out;
+}
+
+#isotope-filters button.active span{
+  color: #f4c613;
+  border-bottom: 3px solid #f4c613;
+}
