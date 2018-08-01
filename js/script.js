@@ -66,7 +66,7 @@ $(window).on('load', function() {
       filter: filterValue
     });
 
-    //active button
+    //active buttonß
     $('#isotope-filters').find('.active').removeClass('active');
     $(this).addClass('active');
   });
