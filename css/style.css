@@ -66,6 +66,35 @@ section {
 }
 
 /* =====================================
+  Navbar
+======================================*/
+.navbar{
+  padding: 35px 0 20px 0;
+}
+
+.site-nav-bar{
+  padding: 0 5px;
+}
+
+.navbar-brand {
+  padding: 13px 15px;
+}
+
+ul.navbar-nav > li > a {
+  font-family: "Raleway",sans-serif;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+ul.navbar-nav > li > a:hover,
+ul.navbar-nav > li > a:focus {
+  color: #f4c613;
+}
+
+/* =====================================
   Home
 ======================================*/
 
