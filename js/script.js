@@ -126,3 +126,23 @@ $(function() {
     dots: false,
   });
 });
+
+
+/* =====================================
+  Google Map
+======================================*/
+
+$(window).on('load', function() {
+
+  var addressString = "brooklyn, NY";
+  var myLatLng = {
+    lat: 40.678178,
+    lng: -73.944158
+  };
+
+  // render map
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 11,
+    center: myLatLng
+  });
+});

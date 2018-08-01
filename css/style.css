@@ -1107,17 +1107,18 @@ ul.social-list li:nth-child(3) a:hover {
 ======================================*/
 
 /* left side */
-#contact-left p{
+
+#contact-left p {
   margin: 25px 0 20px 0;
 }
 
-ul.office-details{
+ul.office-details {
   list-style: none;
   padding: 0;
 }
 
-ul.office-details li{
-  font-family: "Open Sans",sans-serif;
+ul.office-details li {
+  font-family: "Open Sans", sans-serif;
   margin-top: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1129,19 +1130,19 @@ ul.office-details li i {
   width: 45px;
 }
 
-#contact-left ul.social-list li a{
+#contact-left ul.social-list li a {
   color: #212226;
   border: 1px solid #212226;
   text-align: center;
 }
 
-#contact-left ul.social-list li a:hover{
+#contact-left ul.social-list li a:hover {
   color: #fff;
   border-color: transparent;
 }
 
-
 /* right side */
+
 #contact-right {
   padding: 25px 30px;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
@@ -1171,4 +1172,34 @@ ul.office-details li i {
 #submit-btn {
   width: 100%;
   text-align: center;
+}
+
+/* =====================================
+  Map
+======================================*/
+
+#google-map .container-fluid {
+  padding: 0;
+}
+
+#map {
+  height: 600px;
+}
+
+/* =====================================
+  Footer
+======================================*/
+
+footer {
+  background: #212226;
+  padding: 30px;
+}
+
+footer p {
+  color: #fff;
+  line-height: 20px;
+}
+
+footer p span {
+  color: #f4c613;
 }
