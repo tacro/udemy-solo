@@ -84,3 +84,19 @@ $(function() {
     },
   });
 });
+
+/* =====================================
+  Testmonials
+======================================*/
+$(function() {
+  $("#testmonial-slider").owlCarousel({
+    items: 1,
+    autoplay: false,
+    smartspeed: 700,
+    loop: true,
+    autoplayHoverPause: true,
+    nav: true,
+    navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
+    dots: false,
+  });
+});
