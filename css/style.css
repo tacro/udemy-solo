@@ -39,6 +39,10 @@ section {
   overflow: hidden;
 }
 
+*:focus {
+  outline: none;
+}
+
 /* =====================================
   Preloader
 ======================================*/
@@ -245,7 +249,6 @@ ul.nav.nav-pills>li>a.active, .white-nav-top ul.nav.nav-pills>li>a.active {
   font-size: 22px;
   display: none;
 }
-
 
 /* =====================================
   Arrow down
@@ -1269,8 +1272,4 @@ footer p {
 
 footer p span {
   color: #f4c613;
-}
-
-footer a:focus{
-  outline: none;
 }
