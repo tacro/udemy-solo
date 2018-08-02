@@ -113,6 +113,13 @@ ul.navbar-nav > li > a:focus {
   color: #f4c613;
 }
 
+/* Scrolspy active state */
+.white-nav-top ul.nav.nav-pills > li > a.active {
+  background: none;
+  color: #f4c513;
+  font-weight: 500;
+}
+
 /* =====================================
   Home
 ======================================*/
