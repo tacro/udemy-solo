@@ -5,53 +5,47 @@
 /* extra large devices (laptop & desktop) */
 
 @media (min-width:1200px) {
-
   /* About */
   #about-bottom img {
     display: block;
     margin: 0 auto;
   }
-
   /* Services 02 */
   #services-tabs .tab-bg {
     padding: 16px 30px;
-    min-height: 444.3px;
+    min-height: 481.4px;
   }
-
 }
 
 /* large devices (laptop & desktop) */
 
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Generic */
+  .vertical-heading {
+    padding: 0 15px;
+  }
   .vertical-heading h2 {
     font-size: 32px;
   }
   /* Services 02 */
   #services-tabs .tab-bg {
     padding: 16px 30px;
-    min-height: 370.3px;
+    min-height: 407.3px;
   }
-
   .service-tab p {
     line-height: 20px;
   }
-
   /* Testmonials */
-
   #testmonials .vertical-heading {
-    position:relative;
+    position: relative;
   }
-
   #testmonials .vertical-heading h2 {
     position: absolute;
     top: 55%;
   }
-
   #testmonial-slider {
     top: -100px;
   }
-
   .testmonial .author .author-name-des {
     margin-top: 15px;
   }
@@ -64,49 +58,40 @@
   .site-new-wrapper {
     padding: 0;
   }
-
   ul.navbar-nav>li>a {
     margin-left: 30px;
   }
-
   /* home */
-  #home-heading h2{
+  #home-heading h1 {
     font-size: 41px;
   }
-
-  #home-heading p{
+  #home-text p {
     font-size: 13px;
   }
-
   /* generic */
   .btn-general {
     padding: 8px 35px;
     font-size: 10px;
   }
-
   .vertical-heading h2 {
     font-size: 29px;
   }
-
   /* Tech statement */
   #tech-statement h3 {
     font-size: 20px;
     line-height: 30px;
   }
-
   /* Services 01 */
   .service .icon {
     -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
   }
-
   /* Services 02 */
   .r-tabs-accordion-title {
     text-align: center;
     margin-bottom: 10px;
   }
-
-  .r-tabs-accordion-title a{
+  .r-tabs-accordion-title a {
     font-family: "Raleway", sans-serif;
     font-size: 13px;
     color: #212226;
@@ -115,7 +100,6 @@
     padding: 0;
     text-decoration: none;
   }
-
   .r-tabs-state-active a {
     color: #f4c316;
     font-weight: 700;
@@ -123,74 +107,58 @@
     padding-bottom: 5px;
     transition: border-color 300ms linear;
   }
-
   #services-tabs .tab-bg {
     padding: 14px 30px;
-    min-height: 296.2px;
+    min-height: 308.6px;
   }
-
   .service-tab h2 {
     font-size: 22px;
     margin-bottom: 12px;
   }
-
   .service-tab h3 {
     font-size: 20px;
     margin-bottom: 10px;
   }
-
   .service-tab p {
     line-height: 18px;
     margin-bottom: 10px;
   }
-
   /* Testmonials */
   #testmonials {
     padding-bottom: 25px;
   }
-
   #testmonials .vertical-heading {
-    position:relative;
+    position: relative;
   }
-
   #testmonials .vertical-heading h2 {
     position: absolute;
     top: 45%;
   }
-
   #testmonial-slider {
     top: -100px;
   }
-
   .testmonial {
     padding: 20px 45px 0 45px;
   }
-
   .testmonial .author .author-name-des {
     margin-top: 15px;
   }
-
   .testmonial .author img {
     min-width: 60px;
   }
-
   /* Pricing */
   .pricing-table .price h2 {
     margin: 0 0 0 6px;
     font-size: 35px;
   }
-
   /* Blog */
   .blog-post .post-meta {
     margin-top: 15px;
     padding-top: 8px;
   }
-
   .blog-post .post-meta p {
     line-height: 14px;
   }
-
-
 }
 
 /* small devices */
@@ -200,9 +168,75 @@
   .site-new-wrapper {
     padding: 0;
   }
-
   ul.navbar-nav>li>a {
     margin-left: 30px;
+  }
+  /* home */
+  #home-heading h1 {
+    font-size: 22px;
+  }
+  #home-text p {
+    font-size: 13px;
+    line-height: 15px;
+    margin: 8px 2px 13px 2px;
+  }
+  /* generic */
+  .btn-general {
+    padding: 8px 25px 6px 25px;
+    font-size: 10px;
+  }
+  .content-box-lg {
+    padding: 96px 0;
+  }
+  .content-box-md {
+    padding: 80px 0;
+  }
+  /* Vertical heading */
+  .vertical-heading {
+    text-align: center;
+  }
+  .vertical-heading h5 {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    display: block;
+    position: static;
+    margin-bottom: 15px;
+  }
+  .vertical-heading h2 {
+    font-size: 29px;
+    line-height: normal;
+    margin: 0;
+  }
+  /* About 01 */
+  #about-left {
+    margin-bottom: 50px;
+  }
+  #about-right {
+    text-align: center;
+  }
+  /* About 02 */
+  .about-item {
+    padding: 55px 30px;
+    margin-bottom: 35px;
+  }
+  .about-item i {
+    font-size: 30px;
+  }
+  .about-item h3 {
+    font-size: 18px;
+  }
+  /* Team */
+  #team-left .vertical-heading {
+    min-height: 130px;
+  }
+  .skill h4 {
+    font-size: 14px;
+    line-height: 35px;
+  }
+  /* Tech Statement */
+  #tech-statement h3 {
+    font-size: 16px;
+    line-height: 30px;
   }
 }
 
