@@ -28,11 +28,17 @@ $(function() {
       $("nav").addClass("white-nav-top");
 
       $(".navbar-brand img").attr("src", "img/logo/logo-dark.png");
+
+      //Back to Top button
+      $("#back-to-top").fadeIn();
     } else {
       //hide
       $("nav").removeClass("white-nav-top");
 
       $(".navbar-brand img").attr("src", "img/logo/logo.png");
+
+      //Back to Top button
+      $("#back-to-top").fadeOut();
     }
   }
 });

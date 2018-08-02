@@ -68,12 +68,13 @@ section {
 /* =====================================
   Navbar
 ======================================*/
-.navbar{
+
+.navbar {
   padding: 35px 0 20px 0;
   transition: all 300ms linear;
 }
 
-.site-nav-bar{
+.site-nav-bar {
   padding: 0 5px;
 }
 
@@ -81,8 +82,8 @@ section {
   padding: 13px 15px;
 }
 
-ul.navbar-nav > li > a {
-  font-family: "Raleway",sans-serif;
+ul.navbar-nav>li>a {
+  font-family: "Raleway", sans-serif;
   color: #fff;
   font-size: 13px;
   font-weight: 400;
@@ -90,12 +91,12 @@ ul.navbar-nav > li > a {
   letter-spacing: 1px;
 }
 
-ul.navbar-nav > li > a:hover,
-ul.navbar-nav > li > a:focus {
+ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus {
   color: #f4c613;
 }
 
 /* white navigaton */
+
 .white-nav-top {
   background: #fff;
   padding: 10px 0;
@@ -104,18 +105,17 @@ ul.navbar-nav > li > a:focus {
   z-index: 2;
 }
 
-.white-nav-top ul.navbar-nav > li > a {
+.white-nav-top ul.navbar-nav>li>a {
   color: #212226;
 }
 
-.white-nav-top ul.navbar-nav > li > a:hover,
-.white-nav-top ul.navbar-nav > li > a:focus {
+.white-nav-top ul.navbar-nav>li>a:hover, .white-nav-top ul.navbar-nav>li>a:focus {
   color: #f4c613;
 }
 
 /* Scrolspy active state */
-ul.nav.nav-pills > li > a.active,
-.white-nav-top ul.nav.nav-pills > li > a.active {
+
+ul.nav.nav-pills>li>a.active, .white-nav-top ul.nav.nav-pills>li>a.active {
   background: none;
   color: #f4c513;
   font-weight: 500;
@@ -235,6 +235,17 @@ ul.nav.nav-pills > li > a.active,
   background-color: #212226;
   border: 1px solid #212226;
 }
+
+.btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 3px 15px;
+  border-radius: 4px;
+  font-size: 22px;
+  display: none;
+}
+
 
 /* =====================================
   Arrow down
@@ -1258,4 +1269,8 @@ footer p {
 
 footer p span {
   color: #f4c613;
+}
+
+footer a:focus{
+  outline: none;
 }
