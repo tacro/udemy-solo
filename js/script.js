@@ -37,6 +37,18 @@ $(function() {
   }
 });
 
+//smooth scrolling
+$(function() {
+  $("a.smooth-scroll").click(function(event) {
+    event.preventDefault();
+    //get section id like #about, #services etc...
+    var section_id = $(this).attr("href");
+    $("html, body").animate({
+      scrollTop: $(section_id).offset().top - 64
+    }, 1250, "easeInOutExpo");
+  });
+});
+
 /* =====================================
   Team
 ======================================*/
