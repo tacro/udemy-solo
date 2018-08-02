@@ -254,7 +254,6 @@
   .service h4 {
     font-size: 18px;
   }
-
   /* Services 02 */
   .r-tabs-accordion-title {
     text-align: center;
@@ -286,46 +285,77 @@
   #services-tabs h3 {
     font-size: 20px;
   }
-
   /* Portfolio */
   #portfolio {
     padding-bottom: 0;
   }
-
   #isotope-filters button {
     padding-right: 15px;
   }
-
   /* Testmonial */
   #testmonials {
     padding-top: 45px;
   }
-
   #testmonial-slider {
     top: 0;
   }
-
   #testmonials .vertical-heading {
     padding: 0;
   }
-
   .testmonial .row {
     margin: 0;
   }
-
-  .testmonial h3{
+  .testmonial h3 {
     font-size: 20px;
   }
-
   .testmonial .stars {
     font-size: 16px;
     margin: 5px;
   }
-
   .author img {
     width: 80px !important;
   }
-
+  /* Pricing */
+  .pricing-table {
+    margin-bottom: 30px;
+  }
+  .pricing-table .price h2 {
+    font-size: 20px;
+    margin: 0 0 0 16px;
+  }
+  /* Stats */
+  .stats-item {
+    margin-bottom: 20px;
+    padding: 25px 5px;
+  }
+  .stats-item i {
+    font-size: 30px;
+  }
+  .stats-item h3 {
+    font-size: 24px;
+  }
+  /* Blog */
+  #blog-left {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .blog-post {
+    margin-bottom: 25px;
+  }
+  /* Contact */
+  #contact-left {
+    text-align: center;
+  }
+  .office {
+    margin-bottom: 40px;
+  }
+  ul.office-details li {
+    display: block;
+    margin-bottom: 25px;
+  }
+  ul.social-list {
+    margin-bottom: 40px;
+  }
 }
 
 /* extra small devices (phones) */
