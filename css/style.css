@@ -745,6 +745,7 @@ ul.social-list li:nth-child(3) a:hover {
 
 #isotope-filters button {
   font-family: 'Raleway', sans-serif;
+  background: #fff;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;

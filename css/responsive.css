@@ -3,26 +3,41 @@
 ======================================*/
 
 /* extra large devices (laptop & desktop) */
+
 @media (min-width:1200px) {
 
+  /* Services 02 */
+  #services-tabs .tab-bg {
+    padding: 16px 30px;
+    min-height: 469px;
+  }
 }
 
 /* large devices (laptop & desktop) */
-@media (min-width: 992px) and (max-width: 1199px) {
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Generic */
+  .vertical-heading h2 {
+    font-size: 32px;
+  }
+  /* Services 02 */
+  #services-tabs .tab-bg {
+    padding: 16px 30px;
+    min-height: 395.5px;
+  }
+  .service-tab p {
+    line-height: 20px;
+  }
 }
 
 /* medium devices */
-@media (min-width: 768px) and (max-width: 991px) {
 
-}
+@media (min-width: 768px) and (max-width: 991px) {}
 
 /* small devices (tablets) */
-@media (min-width: 576px) and (max-width: 767px) {
 
-}
+@media (min-width: 576px) and (max-width: 767px) {}
 
 /* extra small devices (phones) */
-@media (max-width: 575px) {
-  
-}
+
+@media (max-width: 575px) {}
