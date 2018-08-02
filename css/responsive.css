@@ -17,6 +17,7 @@
     padding: 16px 30px;
     min-height: 444.3px;
   }
+
 }
 
 /* large devices (laptop & desktop) */
@@ -29,11 +30,30 @@
   /* Services 02 */
   #services-tabs .tab-bg {
     padding: 16px 30px;
-    min-height: 395.5px;
+    min-height: 370.3px;
   }
 
   .service-tab p {
     line-height: 20px;
+  }
+
+  /* Testmonials */
+
+  #testmonials .vertical-heading {
+    position:relative;
+  }
+
+  #testmonials .vertical-heading h2 {
+    position: absolute;
+    top: 55%;
+  }
+
+  #testmonial-slider {
+    top: -100px;
+  }
+
+  .testmonial .author .author-name-des {
+    margin-top: 15px;
   }
 }
 
@@ -106,22 +126,22 @@
 
   #services-tabs .tab-bg {
     padding: 14px 30px;
-    min-height: 296.2px;
+    min-height: 271.5px;
   }
 
   .service-tab h2 {
-    font-size: 29px;
-    margin-bottom: 15px;
+    font-size: 22px;
+    margin-bottom: 12px;
   }
 
   .service-tab h3 {
-    font-size: 24px;
-    margin-bottom: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
   }
 
   .service-tab p {
-    line-height: 20px;
-    margin-bottom: 15px;
+    line-height: 18px;
+    margin-bottom: 10px;
   }
 
   /* Testmonials */
@@ -175,7 +195,16 @@
 
 /* small devices */
 
-@media (min-width: 576px) and (max-width: 767px) {}
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Navbar */
+  .site-new-wrapper {
+    padding: 0;
+  }
+
+  ul.navbar-nav>li>a {
+    margin-left: 30px;
+  }
+}
 
 /* extra small devices (phones) */
 
