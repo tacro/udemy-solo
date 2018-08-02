@@ -6,10 +6,16 @@
 
 @media (min-width:1200px) {
 
+  /* About */
+  #about-bottom img {
+    display: block;
+    margin: 0 auto;
+  }
+
   /* Services 02 */
   #services-tabs .tab-bg {
     padding: 16px 30px;
-    min-height: 469px;
+    min-height: 444.3px;
   }
 }
 
@@ -25,16 +31,149 @@
     padding: 16px 30px;
     min-height: 395.5px;
   }
+
   .service-tab p {
     line-height: 20px;
   }
 }
 
-/* medium devices */
+/* medium devices (tablets) */
 
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Navbar */
+  .site-new-wrapper {
+    padding: 0;
+  }
 
-/* small devices (tablets) */
+  ul.navbar-nav>li>a {
+    margin-left: 30px;
+  }
+
+  /* home */
+  #home-heading h2{
+    font-size: 41px;
+  }
+
+  #home-heading p{
+    font-size: 13px;
+  }
+
+  /* generic */
+  .btn-general {
+    padding: 8px 35px;
+    font-size: 10px;
+  }
+
+  .vertical-heading h2 {
+    font-size: 29px;
+  }
+
+  /* Tech statement */
+  #tech-statement h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  /* Services 01 */
+  .service .icon {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  /* Services 02 */
+  .r-tabs-accordion-title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .r-tabs-accordion-title a{
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    color: #212226;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  .r-tabs-state-active a {
+    color: #f4c316;
+    font-weight: 700;
+    border-bottom: 2px solid #f4c316;
+    padding-bottom: 5px;
+    transition: border-color 300ms linear;
+  }
+
+  #services-tabs .tab-bg {
+    padding: 14px 30px;
+    min-height: 296.2px;
+  }
+
+  .service-tab h2 {
+    font-size: 29px;
+    margin-bottom: 15px;
+  }
+
+  .service-tab h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .service-tab p {
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+
+  /* Testmonials */
+  #testmonials {
+    padding-bottom: 25px;
+  }
+
+  #testmonials .vertical-heading {
+    position:relative;
+  }
+
+  #testmonials .vertical-heading h2 {
+    position: absolute;
+    top: 45%;
+  }
+
+  #testmonial-slider {
+    top: -100px;
+  }
+
+  .testmonial {
+    padding: 20px 45px 0 45px;
+  }
+
+  .testmonial .author .author-name-des {
+    margin-top: 15px;
+  }
+
+  .testmonial .author img {
+    min-width: 60px;
+  }
+
+  /* Pricing */
+  .pricing-table .price h2 {
+    margin: 0 0 0 6px;
+    font-size: 35px;
+  }
+
+  /* Blog */
+  .blog-post .post-meta {
+    margin-top: 15px;
+    padding-top: 8px;
+  }
+
+  .blog-post .post-meta p {
+    line-height: 14px;
+  }
+
+
+}
+
+/* small devices */
 
 @media (min-width: 576px) and (max-width: 767px) {}
 

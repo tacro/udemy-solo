@@ -68,6 +68,16 @@ $(function() {
     nav: true,
     navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
     dots: false,
+    responsive:{
+      //breakpoint from 0 up
+      0:{
+        items: 1,
+      },
+      //breakpoint from 400 up
+      400: {
+        items: 2,
+      },
+    },
   });
 });
 

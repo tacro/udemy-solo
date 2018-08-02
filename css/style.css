@@ -78,6 +78,23 @@ section {
   transition: all 300ms linear;
 }
 
+.navbar .navbar-toggler{
+  color: #fff;
+  padding: 13px 15px;
+  margin-right: 10px;
+  outline: none;
+}
+
+.navbar .navbar-toggler span {
+  position: relative;
+}
+
+.navbar .navbar-toggler span i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .site-nav-bar {
   padding: 0 5px;
 }
@@ -109,7 +126,9 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus {
   z-index: 2;
 }
 
-.white-nav-top ul.navbar-nav>li>a {
+.white-nav-top ul.navbar-nav>li>a,
+.white-nav-top .navbar-toggler
+{
   color: #212226;
 }
 
