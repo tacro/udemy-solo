@@ -78,7 +78,7 @@ section {
   transition: all 300ms linear;
 }
 
-.navbar .navbar-toggler{
+.navbar .navbar-toggler {
   color: #fff;
   padding: 13px 15px;
   margin-right: 10px;
@@ -126,9 +126,7 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus {
   z-index: 2;
 }
 
-.white-nav-top ul.navbar-nav>li>a,
-.white-nav-top .navbar-toggler
-{
+.white-nav-top ul.navbar-nav>li>a, .white-nav-top .navbar-toggler {
   color: #212226;
 }
 
@@ -349,7 +347,6 @@ ul.nav.nav-pills>li>a.active, .white-nav-top ul.nav.nav-pills>li>a.active {
 .horizontal-heading h2 {
   margin: 0;
 }
-
 
 /* =====================================
   About 01
@@ -1295,15 +1292,11 @@ footer p span {
   color: #f4c613;
 }
 
-
 /* =====================================
   Animation
 ======================================*/
-#home-heading-1,
-#home-heading-2,
-#home-text,
-#home-btn,
-#arrow-down i {
+
+#home-heading-1, #home-heading-2, #home-text, #home-btn, #arrow-down i {
   -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
 }
