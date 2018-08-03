@@ -422,9 +422,14 @@ ul.nav.nav-pills>li>a.active, .white-nav-top ul.nav.nav-pills>li>a.active {
 
 /* smooth transition */
 
-.about-item, .about-item i, .about-item hr, .about-item p, .about-item h3 {
+.about-item, .about-item i, .about-item hr {
   -webkit-transition: all 400ms ease-in-out;
   transition: all 400ms ease-in-out;
+}
+
+.about-item p, .about-item h3 {
+  -webkit-transition: all 400ms linear;
+  transition: all 400ms linear;
 }
 
 /* =====================================
@@ -805,8 +810,8 @@ ul.social-list li:nth-child(3) a:hover {
   left: 0;
   right: 0;
   background: rgba(14, 14, 19, 0.9);
-  cursor: -webkit-zoom-in;
-  cursor: zoom-in;
+  cursor: -webkit-pointer;
+  cursor: pointer;
   opacity: 0;
   -webkittransition: all .5s ease;
   transition: all .5s ease;
@@ -1145,7 +1150,7 @@ ul.social-list li:nth-child(3) a:hover {
   padding: 20px;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-  border-radius: 6px;
+  border-radius: 4px;
 }
 
 .blog-post h4 {
@@ -1286,6 +1291,7 @@ footer {
 footer p {
   color: #fff;
   line-height: 20px;
+  margin: 0;
 }
 
 footer p span {
