@@ -1271,9 +1271,9 @@ ul.office-details li i {
   Map
 ======================================*/
 
-#google-map .container-fluid {
+/* #google-map .container-fluid {
   padding: 0;
-}
+} */
 
 #map {
   height: 600px;
